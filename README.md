@@ -1,4 +1,4 @@
-## Keep CALM and Improve Visual Feature Attribution
+## Keep CALM and Improve Visual Feature Attribution | [Paper](https://arxiv.org/abs/2106.07861)
 
 Jae Myung Kim<sup>1*</sup>, Junsuk Choe<sup>1*</sup>, Zeynep Akata<sup>2</sup>, Seong Joon Oh<sup>1&dagger;</sup>  
 <sub>\* Equal contribution</sub> <sub>&dagger;</sub> <sub> Corresponding author </sub>
@@ -22,7 +22,7 @@ You can train CALM models by
 ```
 $ python main.py --experiment_name=experiment_name/ \
                  --architecture=resnet50 \
-                 --attribution_method=CALM_EM \
+                 --attribution_method=CALM-EM \
                  --dataset=CUB \
                  --use_bn=True --large_feature_map=True
 ```
@@ -31,7 +31,7 @@ You can evaluate the models on two different metrics,
 ```
 $ python eval_pixel_perturb.py --experiment_name=experiment_name/ \
                                --architecture=resnet50 \ 
-                               --attribution_method=CALM_EM \
+                               --attribution_method=CALM-EM \
                                --dataset=CUB \
                                --use_bn=True --large_feature_map=True \
                                --use_load_checkpoint=True \
@@ -40,7 +40,7 @@ $ python eval_pixel_perturb.py --experiment_name=experiment_name/ \
                                
 $ python eval_cue_location.py --experiment_name=experiment_name/ \ 
                               --architecture=resnet50 \
-                              --attribution_method=CALM_EM \
+                              --attribution_method=CALM-EM \
                               --dataset=CUB \
                               --use_bn=True --large_feature_map=True \
                               --use_load_checkpoint=True \
@@ -87,4 +87,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+```
+
+### How to cite
+```
+@article{kim2021calm,
+  title={Keep CALM and Improve Visual Feature Attribution},
+  author={Kim, Jae Myung and Choe, Junsuk and Akata, Zeynep and Oh, Seong Joon},
+  year={2021},
+  journal = {arXiv preprint arXiv:2106.07861},
+}
 ```
