@@ -1,4 +1,4 @@
-## Keep CALM and Improve Visual Feature Attribution | [Paper](https://arxiv.org/abs/2106.07861)
+## Keep CALM and Improve Visual Feature Attribution (ICCV 2021) | [Paper](https://arxiv.org/abs/2106.07861)
 
 Jae Myung Kim<sup>1*</sup>, Junsuk Choe<sup>1*</sup>, Zeynep Akata<sup>2</sup>, Seong Joon Oh<sup>1&dagger;</sup>  
 <sub>\* Equal contribution</sub> <sub>&dagger;</sub> <sub> Corresponding author </sub>
@@ -91,10 +91,13 @@ THE SOFTWARE.
 
 ### How to cite
 ```
-@article{kim2021calm,
+@article{kim2021iccv,
   title={Keep CALM and Improve Visual Feature Attribution},
   author={Kim, Jae Myung and Choe, Junsuk and Akata, Zeynep and Oh, Seong Joon},
   year={2021},
-  journal = {arXiv preprint arXiv:2106.07861},
+  booktitle = {International Conference on Computer Vision (ICCV)},
+  note = {to appear},
+  pubstate = {published},
+  tppubtype = {inproceedings},
 }
 ```
