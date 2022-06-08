@@ -57,7 +57,7 @@ For those who wish to use pretrained CALM weights,
 | CALM_EM |  ImageNet | 70.4 | [link](https://drive.google.com/file/d/17451YI9KANnkmmn2ix0N-uHYZljsq4Lc/view?usp=sharing) |
 | CALM_ML |   CUB | 59.6 | [link](https://drive.google.com/file/d/1JgupGC2EoIX8wqpYgKPS-3kSLF-29Z8g/view?usp=sharing) |
 | CALM_ML | OpenImages | 70.9 | [link](https://drive.google.com/file/d/1QHhiRjO_Oz_yIl64PJqMeCJzK1KUlffA/view?usp=sharing) |
-| CALM_ML | ImageNet | 70.6 | [link](https://drive.google.com/file/d/131VHERtxDC-45MhIKgGok-1WxCXUlvdC/view?usp=sharing) |
+| CALM_ML | ImageNet | 70.6 | [link](https://drive.google.com/file/d/1w4L4_R9o_Sp-9_Mt5IdEJs5DZuqaCfyp/view?usp=sharing) |
 
 ### Explainability scores
 Cue localization and Remove-and-classify results. More details about the metrics are in the paper. 
